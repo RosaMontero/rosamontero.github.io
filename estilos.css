@@ -1,0 +1,122 @@
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, arial;
+background-color: aliceblue;
+color: #333;
+margin: 0;
+padding: 0;
+line-height: 1.6;
+}
+header {
+    background-color: #a6472c;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+h1, h2 {
+     text-align: center;
+     margin-top: 20px;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+}
+footer {
+    background-color:#a6472c; 
+    color: white;
+    padding: 100;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 14px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+a:hover {
+    color: #a6472c;
+    text-decoration: underline;
+}
+li{
+    margin: 5px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.obras {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    
+}
+.obras li { 
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+}
+.obras li:last-child {
+    border-bottom: none;
+}
+p {
+    text-align: center;
+    max-width: 1240px;
+    margin: 15px auto;
+    line-height: 1.6;
+}
+.obras li strong {
+    color: #a6472c;
+}
+#produccion-literaria {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.caracteristicas {
+    background-color: #fff;
+    border-left: 4px solid #a6472c;
+    padding: 15px;
+    margin-top: 20px;
+    list-style: disc inside;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+
+}
+.caracteristicas li {
+    margin-bottom: auto;
+    color: #333;
+ 
+    }
+   .contenedor-flex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+   }
+   .imagen-lado img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
+
+    
+    
